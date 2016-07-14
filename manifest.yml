@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: aramirezcaibmcom-telus2.apic.mybluemix.net
+  name: test-demo-1
+  host: test-demo-1
+  disk_quota: 1024M
+  services:
+  - test-demo-1-cloudantNoSQLDB
